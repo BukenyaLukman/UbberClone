@@ -160,8 +160,10 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
                             }
                         });
 
+
             }
         };
+
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(getContext());
         if (ActivityCompat.checkSelfPermission(getContext(),
                 Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(),
